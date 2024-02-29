@@ -1,0 +1,19 @@
+Como crear un repositorio de git y subirlo remoto:
+Mi link de repositorio es https://github.com/Yaneisi1999/ExamenProcesos.git
+
+
+git clone https://github.com/tu_usuario/tu_repositorio.git
+cd tu_repositorio
+mkdir ExamenProcesos
+cd ExamenProcesos
+git init
+git add .
+git commit -m "Primer commit"
+git remote add origin https://github.com/Yaneisi1999/ExamenProcesos.git
+git push -u origin master
+
+Este es el comando para subir un archivo en el github:
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Yaneisi1999/Examen_Mario_YaneisiIsrael.git
